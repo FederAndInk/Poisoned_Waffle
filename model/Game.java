@@ -27,6 +27,9 @@ public class Game {
   //
   // Accessor methods
   //
+  public Waffle getWaffle() {
+    return this.waf;
+  }
 
   private void switchCurrentPlayer() {
     if (pCur == player1) {
